@@ -50,6 +50,7 @@ export const videoPlayerInit = () => {
   videoPlayer.addEventListener('pause', toggleIcon);
 
   videoButtonStop.addEventListener('click', stopPlay);
+  
   videoPlayer.addEventListener('timeupdate', () => {
     const currentTime = videoPlayer.currentTime;
     const duration = videoPlayer.duration;

@@ -9,10 +9,20 @@ html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*::before,*::after{-w
   min-width: 100px;
 }
 
+.audio-icon {
+  width: 20px;
+}
+
+.audio-volume {
+  min-width: 100px;
+}
+
 .radio-icon {
   width: 30%;
   margin: auto 20px;
 }
+
+
 
 .radio-footer {
   padding-left: 45%;
